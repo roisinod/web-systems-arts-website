@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<style>
+ #rcorners1 {
+  border-radius: 25px;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwX4Fyfaa9Z91b9T5EpIlbTTJbiuDodabRULZkzcQzTjiTsjF3');
+   background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 150px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  {
+  box-sizing: border-box;
+}
+
+ #rcorners3 {
+  border-radius: 25px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvILNyFDMhAUNMj4bHPaJNWZJY48BWegLIMGeVo94lm46eiJ_I");
+    background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 100px;
+  height: 150px;
+}
+.column {
+  float: top;
+  width: 50%;
+  padding: 10px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+  body {
+
+   background-color: black;
+
+}
+  p {
+  line-height: 2;
+  font-family: "Times New Roman";
+}
+</style>
+</head>
+<body>
+<img id="rcorners3" src="https://www.gaietytheatre.ie/wp-content/uploads/2019/04/poster.jpg" alt="Mary and me" style="float:left;width:500px;height:512px;"/>
+<div class="row">
+  <div class="column" align = 'center' style="background-color:#d42c64;">
+    <h2>Name of Play</h2>
+    <p>Asking for it</p>
+  </div>
+  <div class="column" align = 'center' style="background-color:#e895c7;">
+    <h2>Production Company</h2>
+    <p>Landmark Productions</p>
+  </div>
+  </div>
+</div>
+  <div class="column" align = 'center' style="background-color:#d42c64">
+    <h2>Director</h2>
+    <p>Annabelle Comyn</p>
+  </div>
+</div>
+  <div class="column" align = 'center' style="background-color:#e895c7;">
+    <h2>Cast</h2>
+    <p>Lauren Coe as <i> Emma</i>
+     <br><u>See full cast</u></p>
+  </div>
+</div>
+  <div class="column" align = 'center' style="background-color:#d42c64;">
+    <h2>Stage Crew</h2>
+    <p><i>set designer</i> – Paul O’Mahony<br>
+      <i>costume designer</i> – Niamh Lunny<br>
+      <i>lighting designer</i> – Sinead McKenna<br>
+<i>music and sound designer</i> – Philip Stewart<br>
+      <i>video designer</i> – Jack Phelan<br>
+      <i>movement director</i> – Sue Mythen</p>
+  </div>
+<div class="column" align = 'center' style="background-color:#e895c7;">
+    <h2>What the Critics had to say</h2>
+    <p>‘Harrowing … uncompromising … impressive … this is a story that needs to be told again and again' ***** Sunday Business Post
+    <br>‘Powerfully alienating in forcing us to confront what our society has become … wonderful ensemble cast’ **** Sunday Independent
+     <br> ‘It’s hard to watch. It’s necessary to see’ **** The Reviews Hub
+    </p>
+  <h2>
+    Read our Reviews!
+
+  </h2>
+  <p>
+    <a href="https://www.theartsreview.com/single-post/2018/07/19/Mary-and-Me" target="_blank"><i>Theatre Review</i></h2></a>
+    <a href="https://www.theartsreview.com/single-post/2018/07/19/Mary-and-Me" target="_blank"><i>Madonna and Child</i></h2></a>
+    <a href="https://www.theartsreview.com/single-post/2018/07/19/Mary-and-Me" target="_blank"><i>Recommended Show</i></h2></a>
+
+  </p>
+  </div>
+
+
+<iframe width="400" height="300" src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSKvKszha5n5QNiYGV6SsTZv2pk3sybnQ4OsCGsvJzA59-hjjtC" frameborder="0" allowfullscreen></iframe>
+
+<img align = 'right' id="rcorners1" src = 'https://askingforitplay.files.wordpress.com/2018/05/asking-for-it-rehearsals-4.jpg?w=908&h=636' style="width:800px;height:400px;"border='5'/>
+
+
+
+
+</div>
+</body>
+</html>
+
+</body>
+</html>
