@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cast</title>
+  <link rel="stylesheet" type="text/css" href="castpage.css">
+</head>
+
+<body>
+<div class="row" align ='center'>
+  <div class="column" align = 'center' style="background-color:#d42c64;">
+    <h2>Asking for it Cast</h2>
+  </div>
+  <div class="column" align = 'center' style="background-color:#e895c7;">
+
+    <p>Venetia Bowe as <i> Zoe </i><br> Dawn Bradfield as <i> Mam </i> <br> Sean Doyle as <i> Sean </i> <br> Kwaku Fortune as <i> Eli</i> <br> Liam Heslin as <i>Bryan</i></p>
+  </div>
+  </div>
+</div>
+<div class="row" align ='center'>
+  <div class="column" align = 'center' style="background-color:#d42c64">
+    <p>Aisling Kearns as <i>Emma </i>  <br> Shane Lennon as <i>Paul </i>  <br> Sile Maguire as <i> Ali </i> <br> Amy McElhatton as<i>  Maggie</i> </p>
+  </div>
+</div>
+<div class="row" align ='center'>
+  <div class="column" align = 'center' style="background-color:#e895c7;">
+    <p>Tiernan Messitt-Greene as<i>  Conor </i>  <br> Simon O’Gorman as <i>  Dad </i> <br> Darragh Shannon as <i>  Dylan</i> </p>
+  </div>
+</div>
+</body>
+</html>
