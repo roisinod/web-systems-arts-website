@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dramatic Reviews</title>
+<style>
+  .header {
+
+    background: linear-gradient(red, blanchedalmond);
+    text-align: center;
+    padding: 20px;
+  }
+    p {
+  border: 6px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: whitesmoke;
+}
+  /* Create three equal columns that floats next to each other */
+.column {
+
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  p {
+  line-height: 3;
+  font-family: "Times New Roman";
+  margin: 20px;
+}
+  .border {
+    border-color: cornflowerblue;
+  }
+  .border2 {
+    border-color: darkblue;
+  }
+    .border3 {
+    border-color: darkred;
+  }
+    .border4 {
+    border-color: coral;
+  }
+    .border5 {
+    border-color: lightcoral;
+  }
+</style>
+</head>
+<body background='data:image/jpeg;base64,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'>
+<div class = 'header'>
+<h1>Dramatic Reviews</h1>
+<h2>since 1999</h2>
+</div>
+<div class = row>
+  <p align = 'center'>
+  Latest productions
+  </p>
+</div>
+<img align = 'right' class = border src = 'http://www.milltheatre.ie/wordpress/wp-content/uploads/2018/08/Mary-and-Me-High-Res-Main-Image.jpg' style="width:400px;height:400px;"border='5'/>
+<img align = 'right' class = border2 src = 'data:image/jpeg;base64,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' style="width:400px;height:400px;"border='5'/>
+  <div class="column">
+    <h2 align = 'center'>Mary and Me</h2>
+    <p> Inspired by a true story, MARY AND ME is a compelling imagining of a young woman’s search for understanding and meaning when at a milestone in her life.
+  ‘Riveting……you could not pray to find a better show in this Edinburgh Festival’ ****The Edinburgh Guide 2017</p>
+
+    </p>
+
+  </div>
+<br>
+<br>
+<img align = 'right' class = border3 src = 'https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F70805869%2F226360572441%2F1%2Foriginal.20190903-102825?w=800&auto=compress&rect=0%2C46%2C1280%2C640&s=525922264c93fb7d6340ae8a63b880cf' style="width:800px;height:500px;"border='5'/>
+<div class="column">
+    <h2 align = 'center'>Gone Full Havisham</h2>
+
+    <p> Award-winning performer and writer Irene Kelleher invites you to the Penthouse Suite to meet Emily. Shrouded in her wedding dress, for the past five months she has been a social media sensation. Some say she’s a deranged lunatic, many say she just needs help and to others she’s a hero. Taking Dickens’ extraordinary Miss Havisham in to the era of social media with its artificial gloss and filtered reality, this is one woman who isn’t afraid to tell it like it is – the grit, the grime and stench of rotting flowers.</p>
+
+   </p>
+  </div>
+<img align = 'right' class = border4 src = 'https://askingforitplay.files.wordpress.com/2019/10/venividi.ie_everyman_asking-for-it_64_web.jpg?w=370&h=' style="width:400px;height:500px;"border='5'/>
+<img align = 'right' class = border5 src = 'https://askingforitplay.files.wordpress.com/2018/03/asking-for-it-photo-lauren-coe-pic-c-by-hugh-oconor.jpg?w=462&h=588' style="width:400px;height:500px;"border='5'/>
+ <div class="column">
+    <h2 align = 'center'>Asking for it</h2>
+    <p> One night in a small town in County Cork, where everyone knows everyone, things spiral terrifyingly and violently out of control and a young woman’s life is changed forever. What will happen to Emma now? – her reputation in tatters, and her attackers believed.
+
+Asking for It is a necessary show about now and an unforgettable night at the theatre. It was the landslide winner of the Audience Choice Award at the Irish Times Irish Theatre Awards.</p>
+</p>
+  </div>
+</body>
+</html>
